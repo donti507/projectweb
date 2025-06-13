@@ -1,6 +1,6 @@
 // Typing animation for hero section
 const typingText = document.getElementById('typingText');
-const names = ['Your Name', 'A Developer', 'A Creator', 'An Innovator'];
+const names = ['Ali Ashraf Yad', 'A Tech Enthusiast', 'A Data Analyst', 'An Innovator'];
 let nameIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
@@ -34,10 +34,10 @@ function typeWriter() {
 const terminalCommand = document.getElementById('terminalCommand');
 const terminalOutput = document.getElementById('terminalOutput');
 const commands = [
-    { cmd: 'whoami', output: 'passionate_developer' },
-    { cmd: 'ls skills/', output: 'React  Node.js  Python  TypeScript  MongoDB' },
-    { cmd: 'cat passion.txt', output: 'Building amazing digital experiences...' },
-    { cmd: 'git status', output: 'Ready to create something awesome!' }
+    { cmd: 'whoami', output: 'ali_ashraf_yad - tech_enthusiast' },
+    { cmd: 'ls skills/', output: 'Python  SQL  PowerBI  JavaScript  DataAnalysis' },
+    { cmd: 'cat passion.txt', output: 'Transforming data into actionable insights...' },
+    { cmd: 'git status', output: 'Ready to build innovative solutions!' }
 ];
 let cmdIndex = 0;
 
